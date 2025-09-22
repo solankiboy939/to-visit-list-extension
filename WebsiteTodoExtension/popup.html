@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>To-Visit List</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>To-Visit List</h2>
+      <button id="toggle-dark" title="Toggle dark/light mode">🌓</button>
+    </div>
+
+    <button id="save-current" class="save-btn">Save This Tab</button>
+
+    <div class="stats">
+      <div>📌 Saved: <span id="total-saved">0</span></div>
+      <div>✅ Visited: <span id="total-visited">0</span></div>
+      <div>📆 This week: <span id="weekly-count">0</span></div>
+    </div>
+
+    <div class="filters">
+      <input type="text" id="search" placeholder="🔍 Search sites...">
+      <select id="category-filter">
+        <option value="">All Categories</option>
+        <option value="general">General</option>
+        <option value="read">Read</option>
+        <option value="watch">Watch</option>
+        <option value="buy">Buy</option>
+      </select>
+    </div>
+
+    <ul id="saved-list"></ul>
+
+    <div id="empty-state" class="empty-state">
+      <div>📭 Nothing here yet!</div>
+      <div class="tip">Click “Save This Tab” or press <kbd>Ctrl+Shift+S</kbd></div>
+      <div class="illustration">🎯</div>
+    </div>
+
+    <div class="footer">
+      <button id="export-btn">Export</button>
+      <button id="import-btn">Import</button>
+    </div>
+  </div>
+
+  <input type="file" id="import-file" accept=".json" style="display:none">
+
+  <script src="popup.js"></script>
+</body>
+</html>
