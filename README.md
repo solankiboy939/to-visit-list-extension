@@ -3,8 +3,7 @@
 > “Focus is your superpower.” – You 😎  
 > Save websites for later. Clean your tabs. Stay focused.
 
-![Screenshot](<img width="1904" height="778" alt="image" src="https://github.com/user-attachments/assets/4c864394-c1f0-4b12-a6a2-9a191b757d2f" />
-) <!-- अगर स्क्रीनशॉट डालें तो बेहतर -->
+![Screenshot](WebsiteTodoExtension/Screenshot.png) 
 
 ## ✨ Features
 
